@@ -13,7 +13,21 @@ entered into the storefront using general tagging and markup for testing purpose
 
 #Programs Used : Visual Studio, NSIS (see below), NClass (UML, C#, Java)
 
-
-
-
 https://sourceforge.net/projects/nsis/
+
+
+Links to Snip-Uni Projects: 
+
+#https://github.com/Snippet-University/staging
+
+#https://github.com/Snippet-University/trial_bench
+
+#https://github.com/Snippet-University/assembly_calibration
+
+#https://github.com/Snippet-University/prop_diagnostics
+
+#https://github.com/Snippet-University/local_diagnostics
+
+#https://github.com/Snippet-University/engine_block
+
+#https://github.com/Snippet-University/snippet_library
