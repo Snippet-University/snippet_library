@@ -31,3 +31,7 @@ Links to Snip-Uni Projects:
 #https://github.com/Snippet-University/engine_block
 
 #https://github.com/Snippet-University/snippet_library
+
+## Snippet Engine
+
+See the new `snippet engine` folder for the compiler and prompt-interface design notes.
