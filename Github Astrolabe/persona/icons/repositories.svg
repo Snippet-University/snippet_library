@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img"
+     aria-label="All Profile Repositories icon: a stacked ledger of folios inside an astrolabe ring">
+  <title>All Profile Repositories</title>
+  <circle cx="32" cy="32" r="30" fill="#0d1b2a"/>
+  <circle cx="32" cy="32" r="24" fill="none" stroke="#f4b400" stroke-width="2"/>
+  <rect x="18" y="20" width="28" height="8" rx="1.5" fill="none" stroke="#f4b400" stroke-width="2"/>
+  <rect x="18" y="30" width="28" height="8" rx="1.5" fill="none" stroke="#f4b400" stroke-width="2"/>
+  <rect x="18" y="40" width="28" height="8" rx="1.5" fill="#f4b400"/>
+</svg>

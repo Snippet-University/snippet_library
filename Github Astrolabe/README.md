@@ -10,9 +10,21 @@ user's activity, repositories, organizations, and billing status.
 - Use the official GitHub API for every data section instead of scraping.
 - Keep authentication scoped to what each section actually needs.
 
+## Persona
+
+![Sable, the Astrolabe Octocat](persona/icons/octocat-persona.svg)
+
+Github Astrolabe is guided by **Sable, the Astrolabe Octocat** — a
+business-styled Octocat persona in navy and brass who narrates each
+section's data source and access limits in plain, briefing-room language.
+See [`persona/PERSONA.md`](persona/PERSONA.md) for the full persona
+definition and the matching section iconography.
+
 ## Sections
 
 ### All Profile Activity
+
+![Activity icon](persona/icons/activity.svg)
 
 - Data source: `GET /users/{username}/events` (public events) and
   `GET /users/{username}/events` combined with the authenticated
@@ -25,6 +37,8 @@ user's activity, repositories, organizations, and billing status.
 
 ### All Profile Repositories
 
+![Repositories icon](persona/icons/repositories.svg)
+
 - Data source: `GET /users/{username}/repos` for public repos, or
   `GET /user/repos` (authenticated) to include private repositories the
   viewer has access to.
@@ -35,6 +49,8 @@ user's activity, repositories, organizations, and billing status.
 
 ### All Profile Organizations
 
+![Organizations icon](persona/icons/organizations.svg)
+
 - Data source: `GET /users/{username}/orgs` for publicly visible
   memberships, or `GET /user/memberships/orgs` (authenticated) to include
   private memberships.
@@ -42,6 +58,8 @@ user's activity, repositories, organizations, and billing status.
   state (active/pending).
 
 ### All Profile Paid Accounts
+
+![Paid Accounts icon](persona/icons/paid-accounts.svg)
 
 - Data source: GitHub's billing endpoints are scoped to the **authenticated
   user or an org the caller administers**, not to arbitrary profiles:
