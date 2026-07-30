@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img"
+     aria-label="Coil, the Decision-Simulator Octocat persona in a copper waistcoat">
+  <title>Coil, the Decision-Simulator Octocat</title>
+  <circle cx="64" cy="64" r="62" fill="#0f2b2b"/>
+  <circle cx="64" cy="60" r="34" fill="#173f3f"/>
+  <path d="M40 40 L30 18 L48 32 Z" fill="#173f3f"/>
+  <path d="M88 40 L98 18 L80 32 Z" fill="#173f3f"/>
+  <circle cx="52" cy="58" r="6" fill="#b5651d"/>
+  <circle cx="76" cy="58" r="6" fill="#b5651d"/>
+  <circle cx="52" cy="58" r="2.4" fill="#0f2b2b"/>
+  <circle cx="76" cy="58" r="2.4" fill="#0f2b2b"/>
+  <path d="M56 76 Q64 82 72 76" stroke="#b5651d" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <rect x="46" y="88" width="36" height="18" rx="3" fill="#0f6f6f"/>
+  <path d="M58 88 L64 96 L70 88 Z" fill="#f4f4f4"/>
+  <path d="M64 14 C58 18 58 24 64 28 C70 32 70 38 64 42"
+        fill="none" stroke="#b5651d" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="64" cy="42" r="2.5" fill="#b5651d"/>
+</svg>
