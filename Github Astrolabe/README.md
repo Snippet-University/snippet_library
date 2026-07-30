@@ -20,6 +20,15 @@ section's data source and access limits in plain, briefing-room language.
 See [`persona/PERSONA.md`](persona/PERSONA.md) for the full persona
 definition and the matching section iconography.
 
+## Coil, the decision simulator
+
+Sable's dashboard shows the current state of a profile; **Coil** is a
+companion decision simulator that layers "what if" scenarios on top of that
+same data — e.g. previewing how archiving a repo or leaving an org would
+change the numbers before the user does it for real on GitHub. See
+[`coil/README.md`](coil/README.md) for the full design and
+[`coil/PERSONA.md`](coil/PERSONA.md) for Coil's persona.
+
 ## Sections
 
 ### All Profile Activity
@@ -88,6 +97,9 @@ definition and the matching section iconography.
    section doesn't block the others.
 4. **Cache/refresh**: short-lived cache per section to stay within GitHub's
    rate limits (5,000 requests/hour authenticated, 60/hour unauthenticated).
+5. **Simulation layer (Coil)**: an optional read-only layer over the cached
+   section data that models hypothetical changes without calling any
+   mutating GitHub endpoint. See [`coil/README.md`](coil/README.md).
 
 ## Notes
 
